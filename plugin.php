@@ -5,7 +5,7 @@
  * Plugin URI:        https://github.com/s3rgiosan/wistia-embed-block
  * Requires at least: 6.4
  * Requires PHP:      7.4
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Sérgio Santos
  * Author URI:        https://s3rgiosan.dev/?utm_source=wp-plugins&utm_medium=wistia-embed-block&utm_campaign=author-uri
  * License:           GPL-2.0-or-later
@@ -15,21 +15,21 @@
  * @package           WistiaEmbedBlock
  */
 
-namespace s3rgiosan\WP\WistiaEmbedBlock;
+namespace S3S\WP\WistiaEmbedBlock;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'S3RGIOSAN_WISTIA_EMBED_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
-define( 'S3RGIOSAN_WISTIA_EMBED_BLOCK_URL', plugin_dir_url( __FILE__ ) );
+define( 'S3S_WISTIA_EMBED_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
+define( 'S3S_WISTIA_EMBED_BLOCK_URL', plugin_dir_url( __FILE__ ) );
 
 // Define the Wistia embed pattern.
 const WISTIA_EMBED_PATTERN = '#https?://[^.]+\.(wistia\.com|wi\.st)/(medias|embed)/.*#';
 
-if ( file_exists( S3RGIOSAN_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php' ) ) {
-	require_once S3RGIOSAN_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php';
+if ( file_exists( S3S_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php' ) ) {
+	require_once S3S_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php';
 }
 
 /**
@@ -57,7 +57,7 @@ function enqueue_block_editor_assets() {
 
 	$asset_file = sprintf(
 		'%s/build/index.asset.php',
-		untrailingslashit( S3RGIOSAN_WISTIA_EMBED_BLOCK_PATH )
+		untrailingslashit( S3S_WISTIA_EMBED_BLOCK_PATH )
 	);
 
 	$asset        = file_exists( $asset_file ) ? require $asset_file : null;
@@ -68,7 +68,7 @@ function enqueue_block_editor_assets() {
 		'wistia-embed-block',
 		sprintf(
 			'%s/build/index.js',
-			untrailingslashit( S3RGIOSAN_WISTIA_EMBED_BLOCK_URL )
+			untrailingslashit( S3S_WISTIA_EMBED_BLOCK_URL )
 		),
 		$dependencies,
 		$version,
