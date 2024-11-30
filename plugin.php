@@ -17,6 +17,8 @@
 
 namespace S3S\WP\WistiaEmbedBlock;
 
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;
