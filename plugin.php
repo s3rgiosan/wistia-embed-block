@@ -5,11 +5,11 @@
  * Plugin URI:        https://github.com/s3rgiosan/wistia-embed-block
  * Requires at least: 6.4
  * Requires PHP:      7.4
- * Version:           1.1.0
+ * Version:           1.1.1
  * Author:            Sérgio Santos
  * Author URI:        https://s3rgiosan.dev/?utm_source=wp-plugins&utm_medium=wistia-embed-block&utm_campaign=author-uri
- * License:           GPL-2.0-or-later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * License:           GPL-3.0-or-later
+ * License URI:       https://spdx.org/licenses/GPL-3.0-or-later.html
  * Text Domain:       wistia-embed-block
  *
  * @package           WistiaEmbedBlock
