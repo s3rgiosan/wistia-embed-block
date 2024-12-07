@@ -34,13 +34,11 @@ if ( file_exists( S3S_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php' ) ) {
 	require_once S3S_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php';
 }
 
-$updater = PucFactory::buildUpdateChecker(
+PucFactory::buildUpdateChecker(
 	'https://github.com/s3rgiosan/wistia-embed-block/',
 	__FILE__,
 	'wistia-embed-block'
-);
-
-$updater->setBranch( 'main' );
+)->setBranch( 'main' );
 
 /**
  * Add Wistia as an oEmbed provider.
