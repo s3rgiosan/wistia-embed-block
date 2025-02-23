@@ -11,7 +11,7 @@ import { Icon } from './icon';
 
 registerBlockVariation('core/embed', {
 	name: 'wistia',
-	title: 'Wistia',
+	title: 'Wistia Embed',
 	description: __('Embed a Wistia video.', 'wistia-embed-block'),
 	icon: { src: Icon },
 	patterns: [/https?:\/\/[^.]+\.(wistia\.com|wi\.st)\/(medias|embed)\/.*/],

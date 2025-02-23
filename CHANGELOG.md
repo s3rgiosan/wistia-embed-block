@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ## [Unreleased]
 
+### Changed
+
+- Block title to align with core embed blocks.
+
 ### Removed
 
 - WordPress.org installation steps.
