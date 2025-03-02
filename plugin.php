@@ -3,7 +3,7 @@
  * Plugin Name:       Wistia Embed Block
  * Description:       Embed a Wistia video.
  * Plugin URI:        https://github.com/s3rgiosan/wistia-embed-block
- * Requires at least: 6.4
+ * Requires at least: 6.5
  * Requires PHP:      7.4
  * Version:           1.2.0
  * Author:            Sérgio Santos
