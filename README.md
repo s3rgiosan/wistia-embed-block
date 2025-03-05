@@ -9,7 +9,7 @@ The Wistia Embed block enables you to easily embed Wistia videos directly in the
 ## Requirements
 
 * PHP 7.4+
-* WordPress 6.4
+* WordPress 6.5
 
 ## Installation
 
