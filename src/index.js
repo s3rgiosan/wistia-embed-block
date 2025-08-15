@@ -14,7 +14,7 @@ registerBlockVariation('core/embed', {
 	title: 'Wistia Embed',
 	description: __('Embed a Wistia video.', 'wistia-embed-block'),
 	icon: { src: Icon },
-	patterns: [/https?:\/\/[^.]+\.(wistia\.com|wi\.st)\/(medias|embed)\/.*/],
+	patterns: [/https?:\/\/[^.]+\.(wistia\.com|wi\.st|wistia\.net)\/(medias|embed)\/.*/],
 	attributes: {
 		providerNameSlug: 'wistia',
 		responsive: true,

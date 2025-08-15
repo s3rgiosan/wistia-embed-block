@@ -2,19 +2,24 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
-## [Unreleased]
+## [1.3.0] - 2025-08-15
+
+### Added
+
+- Support for wistia.net embeds.
 
 ### Changed
 
-- Update URI tag
-- Requires at least tag
+- Update dependencies.
+- Update URI tag.
+- Update "Requires at least" tag.
 
 ## [1.2.0] - 2025-03-02
 
 ### Changed
 
 - Block title to align with core embed blocks.
-- Added GitHub sponsoring
+- Added GitHub sponsoring.
 
 ### Removed
 

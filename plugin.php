@@ -3,9 +3,9 @@
  * Plugin Name:       Wistia Embed Block
  * Description:       Embed a Wistia video.
  * Plugin URI:        https://github.com/s3rgiosan/wistia-embed-block
- * Requires at least: 6.5
+ * Requires at least: 6.7
  * Requires PHP:      7.4
- * Version:           1.2.0
+ * Version:           1.3.0
  * Author:            Sérgio Santos
  * Author URI:        https://s3rgiosan.dev/?utm_source=wp-plugins&utm_medium=wistia-embed-block&utm_campaign=author-uri
  * License:           GPL-3.0-or-later
@@ -30,7 +30,7 @@ define( 'S3S_WISTIA_EMBED_BLOCK_PATH', plugin_dir_path( __FILE__ ) );
 define( 'S3S_WISTIA_EMBED_BLOCK_URL', plugin_dir_url( __FILE__ ) );
 
 // Define the Wistia embed pattern.
-const WISTIA_EMBED_PATTERN = '#https?://[^.]+\.(wistia\.com|wi\.st)/(medias|embed)/.*#';
+const WISTIA_EMBED_PATTERN = '#https?://[^.]+\.(wistia\.com|wi\.st|wistia\.net)/(medias|embed)/.*#';
 
 if ( file_exists( S3S_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php' ) ) {
 	require_once S3S_WISTIA_EMBED_BLOCK_PATH . 'vendor/autoload.php';
