@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ### Added
 
-- Support for wistia.net embeds.
+- Add support for wistia.net embeds.
 
 ### Changed
 
@@ -18,12 +18,12 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ### Changed
 
-- Block title to align with core embed blocks.
-- Added GitHub sponsoring.
+- Update block title to align with core embed blocks.
+- Add GitHub sponsoring.
 
 ### Removed
 
-- WordPress.org installation steps.
+- Remove WordPress.org installation steps.
 
 ## [1.1.2] - 2024-12-07
 
@@ -35,7 +35,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ### Changed
 
-- License.
+- Update license.
 
 ## [1.1.0] - 2024-11-30
 
@@ -47,7 +47,7 @@ All notable changes to this project will be documented in this file, per [the Ke
 
 ### Changed
 
-- Namespace and constant prefix.
+- Update namespace and constant prefix.
 
 ## [1.0.0] - 2024-11-16
 
