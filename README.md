@@ -6,11 +6,6 @@
 
 The Wistia Embed block enables you to easily embed Wistia videos directly in the WordPress block editor. No need for shortcodes or manual HTML; simply paste the Wistia video link, and the block takes care of the rest.
 
-## Requirements
-
-* PHP 7.4+
-* WordPress 6.5
-
 ## Installation
 
 ### Manual Installation:
