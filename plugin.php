@@ -13,8 +13,6 @@
  * Update URI:        https://s3rgiosan.dev/
  * GitHub Plugin URI: https://github.com/s3rgiosan/wistia-embed-block
  * Text Domain:       wistia-embed-block
- *
- * @package           WistiaEmbedBlock
  */
 
 namespace S3S\WP\WistiaEmbedBlock;
