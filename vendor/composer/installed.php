@@ -3,7 +3,7 @@
         'name' => 's3rgiosan/wistia-embed-block',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'efb8cd37aabdaf45da549087a6c92d0af34c8742',
+        'reference' => 'c33f9da956495f4061cb48dbe809be67d6637daf',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         's3rgiosan/wistia-embed-block' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'efb8cd37aabdaf45da549087a6c92d0af34c8742',
+            'reference' => 'c33f9da956495f4061cb48dbe809be67d6637daf',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

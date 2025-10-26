@@ -5,7 +5,7 @@
  * Plugin URI:        https://github.com/s3rgiosan/wistia-embed-block
  * Requires at least: 6.7
  * Requires PHP:      7.4
- * Version:           1.3.0
+ * Version:           1.4.0
  * Author:            Sérgio Santos
  * Author URI:        https://s3rgiosan.dev/?utm_source=wp-plugins&utm_medium=wistia-embed-block&utm_campaign=author-uri
  * License:           GPL-3.0-or-later
@@ -38,7 +38,7 @@ PucFactory::buildUpdateChecker(
 	'https://github.com/s3rgiosan/wistia-embed-block/',
 	__FILE__,
 	'wistia-embed-block'
-)->setBranch( 'main' );
+);
 
 /**
  * Add Wistia as an oEmbed provider.
