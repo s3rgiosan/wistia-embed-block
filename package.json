@@ -20,11 +20,7 @@
     "start": "wp-scripts start --blocks-manifest"
   },
   "devDependencies": {
-    "@wordpress/scripts": "^30.21.0",
-    "postcss": "^8.4.21",
-    "postcss-import": "^15.1.0",
-    "postcss-mixins": "^9.0.4",
-    "postcss-preset-env": "^8.1.0"
+    "@wordpress/scripts": "^30.21.0"
   },
   "files": [
     "assets/**",

@@ -20,7 +20,6 @@
 /phpcs.xml.dist export-ignore
 /phpstan.neon.dist export-ignore
 /phpunit.xml.dist export-ignore
-/postcss.config.js export-ignore
 /README.md export-ignore
 /stylelint.config.js export-ignore
 /webpack.config.js export-ignore
