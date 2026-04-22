@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'S3S\\WP\\WistiaEmbedBlock\\Plugin' => $baseDir . '/includes/Plugin.php',
 );

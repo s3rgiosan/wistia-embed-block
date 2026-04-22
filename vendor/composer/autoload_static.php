@@ -10,13 +10,30 @@ class ComposerStaticInit640ee9491c5a8e7624c3a5b88f6210a1
         'f6d4f6bcee7247df6b777884c3e22f98' => __DIR__ . '/..' . '/yahnis-elsts/plugin-update-checker/load-v5p6.php',
     );
 
+    public static $prefixLengthsPsr4 = array (
+        'S' =>
+        array (
+            'S3S\\WP\\WistiaEmbedBlock\\' => 24,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'S3S\\WP\\WistiaEmbedBlock\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/includes',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'S3S\\WP\\WistiaEmbedBlock\\Plugin' => __DIR__ . '/../..' . '/includes/Plugin.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit640ee9491c5a8e7624c3a5b88f6210a1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit640ee9491c5a8e7624c3a5b88f6210a1::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit640ee9491c5a8e7624c3a5b88f6210a1::$classMap;
 
         }, null, ClassLoader::class);

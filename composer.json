@@ -8,7 +8,11 @@
       "homepage": "https://s3rgiosan.dev"
     }
   ],
-  "autoload": {},
+  "autoload": {
+    "psr-4": {
+      "S3S\\WP\\WistiaEmbedBlock\\": "includes/"
+    }
+  },
   "require": {
     "php": "^7.4|^8.0",
     "composer-plugin-api": "^2.3",

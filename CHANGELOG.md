@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file, per [the Keep a Changelog standard](http://keepachangelog.com/).
 
+## [1.5.0] - 2026-04-22
+
+### Changed
+
+- Refactor plugin to class-based structure with PSR-4 autoloading.
+
 ## [1.4.1] - 2026-03-05
 
 ### Changed
